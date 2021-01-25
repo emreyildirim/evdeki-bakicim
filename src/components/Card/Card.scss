@@ -1,0 +1,52 @@
+.card_container {
+  align-items: center;
+  margin-bottom: 15px;
+  border: 2px solid #f45270;
+  border-radius: 5px;
+  padding: 30px 10px;
+  .image_container {
+    img {
+      border-radius: 50%;
+    }
+  }
+  .card_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .info {
+      .name {
+        font-size: 36px;
+      }
+      .location {
+        font-size: 20px;
+      }
+    }
+
+    .wage_container {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+    }
+  }
+}
+.feedbacks {
+  margin-top: 15px;
+  .references {
+    background-color: #f45270;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+  .comments {
+    background-color: #fff;
+    color: #f45270;
+    border: 1px solid #f45270;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}
